@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Piling Forms Docs',
+  title: 'Translator Docs',
   tagline: '',
-  url: 'https://piling-forms.docs.aarsleff.co.uk',
+  url: 'https://translator.docs.aarsleff.co.uk',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Aarsleff-Apps', // Usually your GitHub org/user name.
-  projectName: 'piling-forms-docusaurus', // Usually your repo name.
+  projectName: 'translator-docusaurus', // Usually your repo name.
   trailingSlash: true,
 
   presets: [
@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/Aarsleff-Apps/translator-docusaurus/',
           routeBasePath: '/',
         },
         theme: {
@@ -39,7 +39,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Piling Forms Docs',
+        title: 'Translator Docs',
         logo: {
           alt: 'Aarsleff Logo',
           src: 'img/Aarsleff Icon.svg',
